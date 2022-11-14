@@ -33,5 +33,12 @@ pipeline {
                 sh 'python pipeline.py'
             }
         }
+        stage('update3') {
+            steps {
+                echo 'Clarusway_Way to Reinvent Yourself'
+                sh 'python --version'
+                sh 'python pipeline.py'
+            }
+        }
     }
 }
