@@ -1,1 +1,1 @@
-print("deneme yanıma!")
+print('deneme yanıma!')
